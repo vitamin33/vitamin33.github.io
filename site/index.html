@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vitalii Serbyn — MLOps / GenAI Engineer</title>
+  <meta name="description" content="MLOps · GenAI/LLM Engineer — I ship AI systems to production and prove it with data. A live, self-updating proof-of-work dashboard built on GitHub Actions.">
+  <meta property="og:title" content="Vitalii Serbyn — MLOps / GenAI Engineer">
+  <meta property="og:description" content="MLOps · GenAI/LLM Engineer — I ship AI systems to production and prove it with data.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vitamin33.github.io/">
+  <meta property="og:site_name" content="vitamin33.github.io">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0b0e14">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="topline" aria-hidden="true"></div>
+
+  <div class="wrap">
+
+    <!-- 1 · HERO ------------------------------------------------------- -->
+    <header class="hero reveal" id="hero">
+      <div class="hero-avatar-col">
+        <div class="avatar-ring">
+          <img id="avatar" src="https://github.com/vitamin33.png" alt="Avatar of Vitalii Serbyn" width="92" height="92">
+        </div>
+      </div>
+      <div class="hero-main">
+        <div class="live-row">
+          <span class="pill" id="live-pill">
+            <span class="dot" aria-hidden="true"></span>
+            <span id="live-text">LIVE</span>
+          </span>
+          <span class="live-sub" id="live-sub">auto-updated daily by my own pipeline</span>
+        </div>
+        <h1 id="hero-name">Vitalii Serbyn</h1>
+        <p class="headline" id="hero-headline">MLOps · GenAI/LLM Engineer — I ship AI systems to production and prove it with data</p>
+        <nav class="cta-row" id="cta-row" aria-label="Contact links"></nav>
+      </div>
+    </header>
+
+    <main id="main">
+
+      <!-- 2 · KPI STRIP ------------------------------------------------ -->
+      <section class="section reveal" id="kpi-section" aria-label="Key metrics">
+        <div class="kpi-grid" id="kpi-grid"></div>
+      </section>
+
+      <!-- 3 · TRAFFIC CHART -------------------------------------------- -->
+      <section class="section reveal" id="traffic-section">
+        <div class="sec-head">
+          <span class="kicker"><span class="kicker-num">01</span>signal</span>
+          <h2>Traffic that doesn&rsquo;t expire</h2>
+          <p class="sec-sub">Views and unique visitors, aggregated across every public repo I own.</p>
+        </div>
+        <div class="panel chart-panel">
+          <div class="chart-legend" id="chart-legend"></div>
+          <div class="chart-box" id="traffic-chart"></div>
+          <p class="chart-note" id="traffic-note" hidden></p>
+        </div>
+      </section>
+
+      <!-- 4 · SOURCES + TOP REPOS -------------------------------------- -->
+      <section class="section reveal" id="sources-section">
+        <div class="sec-head">
+          <span class="kicker"><span class="kicker-num">02</span>sources</span>
+          <h2>Who&rsquo;s looking, and at what</h2>
+        </div>
+        <div class="two-col">
+          <div class="panel">
+            <h3 class="panel-title">Where visitors come from</h3>
+            <div id="referrers-body"></div>
+          </div>
+          <div class="panel">
+            <h3 class="panel-title">Top repos by views &middot; 14d</h3>
+            <div id="toprepos-body"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5 · CONTRIBUTION HEATMAP ------------------------------------- -->
+      <section class="section reveal" id="heatmap-section">
+        <div class="sec-head">
+          <span class="kicker"><span class="kicker-num">03</span>consistency</span>
+          <h2>365 days of shipping</h2>
+          <p class="sec-sub" id="heatmap-total"></p>
+        </div>
+        <div class="panel">
+          <div id="heatmap-body"></div>
+        </div>
+      </section>
+
+      <!-- 6 · TECH STACK ----------------------------------------------- -->
+      <section class="section reveal" id="stack-section">
+        <div class="sec-head">
+          <span class="kicker"><span class="kicker-num">04</span>stack</span>
+          <h2>Languages by volume</h2>
+          <p class="sec-sub">Byte-weighted across all tracked repositories.</p>
+        </div>
+        <div class="panel">
+          <div id="languages-body"></div>
+        </div>
+      </section>
+
+      <!-- 7 · PROOF OF WORK -------------------------------------------- -->
+      <section class="section reveal" id="featured-section">
+        <div class="sec-head">
+          <span class="kicker"><span class="kicker-num">05</span>proof of work</span>
+          <h2>Featured builds</h2>
+        </div>
+        <div class="featured-grid" id="featured-grid"></div>
+      </section>
+
+    </main>
+
+    <!-- 8 · FOOTER ----------------------------------------------------- -->
+    <footer class="footer reveal" id="footer">
+      <span class="kicker"><span class="kicker-num">06</span>how this works</span>
+      <div class="pill-chain" role="list" aria-label="Pipeline stages">
+        <span class="chain-pill" role="listitem">cron 04:17 UTC</span>
+        <span class="chain-arrow" aria-hidden="true">&rarr;</span>
+        <span class="chain-pill" role="listitem">GitHub Action</span>
+        <span class="chain-arrow" aria-hidden="true">&rarr;</span>
+        <span class="chain-pill" role="listitem">traffic API snapshot</span>
+        <span class="chain-arrow" aria-hidden="true">&rarr;</span>
+        <span class="chain-pill" role="listitem">JSON in repo</span>
+        <span class="chain-arrow" aria-hidden="true">&rarr;</span>
+        <span class="chain-pill" role="listitem">static rebuild</span>
+      </div>
+      <a class="footer-link" href="https://github.com/vitamin33/vitamin33.github.io" rel="noopener">view pipeline source &nearr;</a>
+      <p class="footer-tag">GitHub deletes traffic data after 14 days. This site remembers.</p>
+    </footer>
+
+  </div>
+
+  <noscript>
+    <div class="noscript-note">This dashboard renders its live data with JavaScript. Enable it to see the numbers — or read the pipeline source at github.com/vitamin33/vitamin33.github.io.</div>
+  </noscript>
+
+  <script src="./app.js"></script>
+</body>
+</html>

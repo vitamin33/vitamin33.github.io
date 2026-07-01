@@ -1,0 +1,132 @@
+{
+  "clones": {
+    "2026-06-17": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-18": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-06-19": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-20": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-06-21": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-06-22": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-06-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-24": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-25": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-27": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-29": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-30": {
+      "count": 0,
+      "uniques": 0
+    }
+  },
+  "paths": {
+    "2026-07-01": [
+      {
+        "count": 1,
+        "path": "/vitamin33/lottery/blob/main/package-lock.json",
+        "title": "/blob/main/package-lock.json",
+        "uniques": 1
+      }
+    ]
+  },
+  "referrers": {
+    "2026-07-01": []
+  },
+  "repo": "lottery",
+  "views": {
+    "2026-06-17": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-18": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-19": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-20": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-21": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-22": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-24": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-25": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-27": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-06-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-29": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-30": {
+      "count": 0,
+      "uniques": 0
+    }
+  }
+}

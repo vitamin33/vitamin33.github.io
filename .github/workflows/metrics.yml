@@ -1,0 +1,78 @@
+# metrics-snapshot
+#
+# Scheduled ingest pipeline for the live proof-of-work dashboard.
+# Runs twice a day (offset minutes to dodge GitHub cron congestion):
+#   - 04:17 UTC — daily traffic snapshot (14-day rolling window, upserted)
+#   - 16:17 UTC — 12h stats refresh
+# All pipeline scripts are idempotent, so re-runs are safe.
+
+name: metrics-snapshot
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+    - cron: '17 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          # Persist the PAT for the push step: commits pushed with the default
+          # github.token do NOT trigger other workflows, so deploy-pages would
+          # never run after a snapshot commit updates site/data.json.
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Pipeline is STDLIB-only — no dependency install step needed.
+
+      - name: Snapshot repo traffic (views/clones/referrers/paths)
+        run: python pipeline/snapshot_traffic.py
+
+      - name: Collect profile stats (followers/stars/forks)
+        run: python pipeline/collect_stats.py
+
+      - name: Build site data (site/data.json)
+        run: python pipeline/build_site_data.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage only pipeline outputs; tolerate paths missing on first run.
+          for path in data site/data.json; do
+            if [ -e "$path" ]; then
+              git add "$path"
+            else
+              echo "::warning::expected pipeline output '$path' not found, skipping"
+            fi
+          done
+
+          if git diff --cached --quiet; then
+            echo "No data changes — nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(data): metrics snapshot"
+
+          # Guard against races with pushes that landed while this job ran.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

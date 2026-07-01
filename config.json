@@ -1,0 +1,28 @@
+{
+  "login": "vitamin33",
+  "name": "Vitalii Serbyn",
+  "headline": "MLOps · GenAI/LLM Engineer — I ship AI systems to production and prove it with data",
+  "exclude_repos": [],
+  "featured": [
+    {
+      "repo": "agent-poi",
+      "impact": "On-chain AI agent identity verification (Proof-of-Intelligence) — agent trust layer for Solana; Colosseum Agent Hackathon build.",
+      "tags": ["AI Agents", "TypeScript", "Solana"]
+    },
+    {
+      "repo": "moxy-backend",
+      "impact": "Production e-commerce backend — API design, data modeling, deployment automation.",
+      "tags": ["TypeScript", "Backend", "CI/CD"]
+    },
+    {
+      "repo": "vitamin33.github.io",
+      "impact": "This dashboard: scheduled GitHub Actions ingest → JSON-as-datastore → static rebuild. Solves the 14-day traffic-retention problem with idempotent daily snapshots.",
+      "tags": ["MLOps", "GitHub Actions", "Data Pipeline"]
+    }
+  ],
+  "cta": {
+    "email": "serbyn.vitalii@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vitalii-serbyn/",
+    "cv_url": null
+  }
+}

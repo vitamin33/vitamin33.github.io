@@ -1,0 +1,138 @@
+{
+  "clones": {
+    "2026-06-17": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-18": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-19": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-06-20": {
+      "count": 71,
+      "uniques": 37
+    },
+    "2026-06-21": {
+      "count": 4,
+      "uniques": 4
+    },
+    "2026-06-22": {
+      "count": 132,
+      "uniques": 43
+    },
+    "2026-06-23": {
+      "count": 243,
+      "uniques": 67
+    },
+    "2026-06-24": {
+      "count": 26,
+      "uniques": 21
+    },
+    "2026-06-25": {
+      "count": 6,
+      "uniques": 6
+    },
+    "2026-06-26": {
+      "count": 25,
+      "uniques": 18
+    },
+    "2026-06-27": {
+      "count": 6,
+      "uniques": 4
+    },
+    "2026-06-28": {
+      "count": 4,
+      "uniques": 1
+    },
+    "2026-06-29": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-30": {
+      "count": 2,
+      "uniques": 2
+    }
+  },
+  "paths": {
+    "2026-07-01": [
+      {
+        "count": 1,
+        "path": "/vitamin33/serbyn-pro",
+        "title": "Overview",
+        "uniques": 1
+      }
+    ]
+  },
+  "referrers": {
+    "2026-07-01": [
+      {
+        "count": 1,
+        "referrer": "github.com",
+        "uniques": 1
+      }
+    ]
+  },
+  "repo": "serbyn-pro",
+  "views": {
+    "2026-06-17": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-18": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-19": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-20": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-21": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-22": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-23": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-24": {
+      "count": 1,
+      "uniques": 1
+    },
+    "2026-06-25": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-26": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-27": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-28": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-29": {
+      "count": 0,
+      "uniques": 0
+    },
+    "2026-06-30": {
+      "count": 0,
+      "uniques": 0
+    }
+  }
+}
