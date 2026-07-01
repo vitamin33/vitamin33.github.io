@@ -317,12 +317,12 @@
         "level": 1
       },
       {
-        "count": 4,
+        "count": 5,
         "date": "2025-09-02",
         "level": 1
       },
       {
-        "count": 6,
+        "count": 5,
         "date": "2025-09-03",
         "level": 1
       },
@@ -1827,12 +1827,12 @@
         "level": 2
       },
       {
-        "count": 38,
+        "count": 39,
         "date": "2026-07-01",
         "level": 3
       }
     ],
-    "total": 4382
+    "total": 4383
   },
   "cta": {
     "cv_url": null,
@@ -1867,10 +1867,10 @@
       "url": "https://github.com/vitamin33/moxy-backend"
     },
     {
-      "description": "",
+      "description": "Live proof-of-work dashboard — self-updating GitHub metrics pipeline (Actions cron → JSON-as-datastore → static rebuild)",
       "impact": "This dashboard: scheduled GitHub Actions ingest → JSON-as-datastore → static rebuild. Solves the 14-day traffic-retention problem with idempotent daily snapshots.",
       "name": "vitamin33.github.io",
-      "pushed_at": null,
+      "pushed_at": "2026-07-01",
       "stars": 0,
       "tags": [
         "MLOps",
@@ -1880,10 +1880,10 @@
       "url": "https://github.com/vitamin33/vitamin33.github.io"
     }
   ],
-  "generated_at": "2026-07-01T21:47:00Z",
+  "generated_at": "2026-07-01T23:00:04Z",
   "kpis": {
     "clones_14d": 673,
-    "contributions_365d": 4382,
+    "contributions_365d": 4383,
     "followers": 3,
     "stars_total": 6,
     "tracking_since": "2026-06-17",
@@ -1894,35 +1894,35 @@
   "languages": [
     {
       "name": "Python",
-      "pct": 27.25
+      "pct": 27.37
     },
     {
       "name": "Dart",
-      "pct": 21.34
+      "pct": 21.07
     },
     {
       "name": "TypeScript",
-      "pct": 17.0
+      "pct": 16.78
     },
     {
       "name": "HTML",
-      "pct": 13.49
+      "pct": 13.42
     },
     {
       "name": "Java",
-      "pct": 5.92
+      "pct": 5.84
     },
     {
       "name": "Kotlin",
-      "pct": 5.7
+      "pct": 5.62
     },
     {
       "name": "JavaScript",
-      "pct": 3.6
+      "pct": 3.96
     },
     {
       "name": "MDX",
-      "pct": 1.98
+      "pct": 1.96
     }
   ],
   "popular_paths": [
@@ -1975,7 +1975,7 @@
     "headline": "MLOps · GenAI/LLM Engineer — I ship AI systems to production and prove it with data",
     "login": "vitamin33",
     "name": "Vitalii Serbyn",
-    "public_repos": 69
+    "public_repos": 70
   },
   "referrers": [
     {
