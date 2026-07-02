@@ -3,11 +3,6 @@
     "days": [
       {
         "count": 0,
-        "date": "2025-07-01",
-        "level": 0
-      },
-      {
-        "count": 0,
         "date": "2025-07-02",
         "level": 0
       },
@@ -1830,9 +1825,14 @@
         "count": 39,
         "date": "2026-07-01",
         "level": 3
+      },
+      {
+        "count": 11,
+        "date": "2026-07-02",
+        "level": 1
       }
     ],
-    "total": 4383
+    "total": 4394
   },
   "cta": {
     "cv_url": null,
@@ -1880,15 +1880,15 @@
       "url": "https://github.com/vitamin33/vitamin33.github.io"
     }
   ],
-  "generated_at": "2026-07-01T23:00:04Z",
+  "generated_at": "2026-07-02T05:38:00Z",
   "kpis": {
-    "clones_14d": 673,
-    "contributions_365d": 4383,
+    "clones_14d": 662,
+    "contributions_365d": 4394,
     "followers": 3,
     "stars_total": 6,
     "tracking_since": "2026-06-17",
-    "uniques_14d": 6,
-    "views_14d": 7,
+    "uniques_14d": 5,
+    "views_14d": 5,
     "views_total_tracked": 7
   },
   "languages": [
@@ -1985,11 +1985,6 @@
     }
   ],
   "top_repos_14d": [
-    {
-      "repo": "vitamin33",
-      "uniques": 1,
-      "views": 2
-    },
     {
       "repo": "assisterr-research",
       "uniques": 1,
