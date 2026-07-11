@@ -2,11 +2,6 @@
   "contributions": {
     "days": [
       {
-        "count": 18,
-        "date": "2025-07-10",
-        "level": 2
-      },
-      {
         "count": 2,
         "date": "2025-07-11",
         "level": 1
@@ -1830,9 +1825,14 @@
         "count": 8,
         "date": "2026-07-10",
         "level": 1
+      },
+      {
+        "count": 0,
+        "date": "2026-07-11",
+        "level": 0
       }
     ],
-    "total": 4504
+    "total": 4486
   },
   "cta": {
     "cv_url": null,
@@ -1880,15 +1880,15 @@
       "url": "https://github.com/vitamin33/vitamin33.github.io"
     }
   ],
-  "generated_at": "2026-07-10T18:02:44Z",
+  "generated_at": "2026-07-11T06:25:39Z",
   "kpis": {
-    "clones_14d": 24,
-    "contributions_365d": 4504,
+    "clones_14d": 13,
+    "contributions_365d": 4486,
     "followers": 3,
     "stars_total": 6,
     "tracking_since": "2026-06-17",
-    "uniques_14d": 2,
-    "views_14d": 2,
+    "uniques_14d": 0,
+    "views_14d": 0,
     "views_total_tracked": 7
   },
   "languages": [
@@ -1984,18 +1984,7 @@
       "uniques": 5
     }
   ],
-  "top_repos_14d": [
-    {
-      "repo": "assisterr-research",
-      "uniques": 1,
-      "views": 1
-    },
-    {
-      "repo": "lottery",
-      "uniques": 1,
-      "views": 1
-    }
-  ],
+  "top_repos_14d": [],
   "traffic_series": [
     {
       "clones": 6,
