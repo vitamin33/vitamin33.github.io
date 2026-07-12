@@ -3,16 +3,6 @@
     "days": [
       {
         "count": 2,
-        "date": "2025-07-11",
-        "level": 1
-      },
-      {
-        "count": 8,
-        "date": "2025-07-12",
-        "level": 1
-      },
-      {
-        "count": 2,
         "date": "2025-07-13",
         "level": 1
       },
@@ -1827,12 +1817,17 @@
         "level": 1
       },
       {
-        "count": 27,
+        "count": 33,
         "date": "2026-07-11",
-        "level": 2
+        "level": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-07-12",
+        "level": 0
       }
     ],
-    "total": 4513
+    "total": 4517
   },
   "cta": {
     "cv_url": null,
@@ -1880,10 +1875,10 @@
       "url": "https://github.com/vitamin33/vitamin33.github.io"
     }
   ],
-  "generated_at": "2026-07-11T17:18:02Z",
+  "generated_at": "2026-07-12T06:47:05Z",
   "kpis": {
-    "clones_14d": 13,
-    "contributions_365d": 4513,
+    "clones_14d": 7,
+    "contributions_365d": 4517,
     "followers": 3,
     "stars_total": 6,
     "tracking_since": "2026-06-17",
