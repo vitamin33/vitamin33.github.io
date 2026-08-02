@@ -1865,7 +1865,7 @@
       "description": "Live proof-of-work dashboard — self-updating GitHub metrics pipeline (Actions cron → JSON-as-datastore → static rebuild)",
       "impact": "This dashboard: scheduled GitHub Actions ingest → JSON-as-datastore → static rebuild. Solves the 14-day traffic-retention problem with idempotent daily snapshots.",
       "name": "vitamin33.github.io",
-      "pushed_at": "2026-08-01",
+      "pushed_at": "2026-08-02",
       "stars": 0,
       "tags": [
         "MLOps",
@@ -1875,11 +1875,11 @@
       "url": "https://github.com/vitamin33/vitamin33.github.io"
     }
   ],
-  "generated_at": "2026-08-02T06:44:12Z",
+  "generated_at": "2026-08-02T17:18:28Z",
   "kpis": {
     "clones_14d": 0,
     "contributions_365d": 4880,
-    "followers": 5,
+    "followers": 4,
     "stars_total": 6,
     "tracking_since": "2026-06-17",
     "uniques_14d": 0,
@@ -1966,7 +1966,7 @@
   ],
   "profile": {
     "avatar_url": "https://github.com/vitamin33.png",
-    "followers": 5,
+    "followers": 4,
     "headline": "MLOps · GenAI/LLM Engineer — I ship AI systems to production and prove it with data",
     "login": "vitamin33",
     "name": "Vitalii Serbyn",
