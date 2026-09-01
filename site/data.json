@@ -2,11 +2,6 @@
   "contributions": {
     "days": [
       {
-        "count": 3,
-        "date": "2025-08-31",
-        "level": 1
-      },
-      {
         "count": 1,
         "date": "2025-09-01",
         "level": 1
@@ -1830,9 +1825,14 @@
         "count": 0,
         "date": "2026-08-31",
         "level": 0
+      },
+      {
+        "count": 1,
+        "date": "2026-09-01",
+        "level": 1
       }
     ],
-    "total": 5245
+    "total": 5243
   },
   "cta": {
     "cv_url": null,
@@ -1880,10 +1880,10 @@
       "url": "https://github.com/vitamin33/vitamin33.github.io"
     }
   ],
-  "generated_at": "2026-08-31T21:29:59Z",
+  "generated_at": "2026-09-01T09:23:42Z",
   "kpis": {
     "clones_14d": 0,
-    "contributions_365d": 5245,
+    "contributions_365d": 5243,
     "followers": 4,
     "stars_total": 6,
     "tracking_since": "2026-06-17",
@@ -1894,35 +1894,35 @@
   "languages": [
     {
       "name": "Python",
-      "pct": 30.14
+      "pct": 30.49
     },
     {
       "name": "Dart",
-      "pct": 19.95
+      "pct": 19.85
     },
     {
       "name": "TypeScript",
-      "pct": 16.94
+      "pct": 16.85
     },
     {
       "name": "HTML",
-      "pct": 12.71
+      "pct": 12.65
     },
     {
       "name": "Java",
-      "pct": 5.53
+      "pct": 5.51
     },
     {
       "name": "Kotlin",
-      "pct": 5.33
+      "pct": 5.3
     },
     {
       "name": "JavaScript",
-      "pct": 3.75
+      "pct": 3.73
     },
     {
       "name": "MDX",
-      "pct": 1.85
+      "pct": 1.84
     }
   ],
   "popular_paths": [
