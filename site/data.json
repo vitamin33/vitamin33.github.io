@@ -579,7 +579,7 @@
       {
         "count": 33,
         "date": "2026-01-01",
-        "level": 2
+        "level": 1
       },
       {
         "count": 8,
@@ -844,7 +844,7 @@
       {
         "count": 33,
         "date": "2026-02-23",
-        "level": 2
+        "level": 1
       },
       {
         "count": 7,
@@ -859,7 +859,7 @@
       {
         "count": 31,
         "date": "2026-02-26",
-        "level": 2
+        "level": 1
       },
       {
         "count": 19,
@@ -874,7 +874,7 @@
       {
         "count": 31,
         "date": "2026-03-01",
-        "level": 2
+        "level": 1
       },
       {
         "count": 9,
@@ -919,7 +919,7 @@
       {
         "count": 32,
         "date": "2026-03-10",
-        "level": 2
+        "level": 1
       },
       {
         "count": 18,
@@ -1009,17 +1009,17 @@
       {
         "count": 34,
         "date": "2026-03-28",
-        "level": 2
+        "level": 1
       },
       {
         "count": 32,
         "date": "2026-03-29",
-        "level": 2
+        "level": 1
       },
       {
         "count": 32,
         "date": "2026-03-30",
-        "level": 2
+        "level": 1
       },
       {
         "count": 42,
@@ -1029,7 +1029,7 @@
       {
         "count": 35,
         "date": "2026-04-01",
-        "level": 2
+        "level": 1
       },
       {
         "count": 10,
@@ -1099,7 +1099,7 @@
       {
         "count": 32,
         "date": "2026-04-15",
-        "level": 2
+        "level": 1
       },
       {
         "count": 20,
@@ -1154,7 +1154,7 @@
       {
         "count": 33,
         "date": "2026-04-26",
-        "level": 2
+        "level": 1
       },
       {
         "count": 7,
@@ -1244,7 +1244,7 @@
       {
         "count": 94,
         "date": "2026-05-14",
-        "level": 4
+        "level": 3
       },
       {
         "count": 37,
@@ -1329,7 +1329,7 @@
       {
         "count": 32,
         "date": "2026-05-31",
-        "level": 2
+        "level": 1
       },
       {
         "count": 5,
@@ -1379,7 +1379,7 @@
       {
         "count": 35,
         "date": "2026-06-10",
-        "level": 2
+        "level": 1
       },
       {
         "count": 50,
@@ -1434,7 +1434,7 @@
       {
         "count": 33,
         "date": "2026-06-21",
-        "level": 2
+        "level": 1
       },
       {
         "count": 39,
@@ -1444,7 +1444,7 @@
       {
         "count": 63,
         "date": "2026-06-23",
-        "level": 3
+        "level": 2
       },
       {
         "count": 10,
@@ -1469,7 +1469,7 @@
       {
         "count": 35,
         "date": "2026-06-28",
-        "level": 2
+        "level": 1
       },
       {
         "count": 20,
@@ -1489,7 +1489,7 @@
       {
         "count": 61,
         "date": "2026-07-02",
-        "level": 3
+        "level": 2
       },
       {
         "count": 41,
@@ -1534,17 +1534,17 @@
       {
         "count": 33,
         "date": "2026-07-11",
-        "level": 2
+        "level": 1
       },
       {
         "count": 31,
         "date": "2026-07-12",
-        "level": 2
+        "level": 1
       },
       {
         "count": 93,
         "date": "2026-07-13",
-        "level": 4
+        "level": 3
       },
       {
         "count": 40,
@@ -1599,7 +1599,7 @@
       {
         "count": 32,
         "date": "2026-07-24",
-        "level": 2
+        "level": 1
       },
       {
         "count": 2,
@@ -1609,7 +1609,7 @@
       {
         "count": 31,
         "date": "2026-07-26",
-        "level": 2
+        "level": 1
       },
       {
         "count": 16,
@@ -1759,7 +1759,7 @@
       {
         "count": 69,
         "date": "2026-08-25",
-        "level": 3
+        "level": 2
       },
       {
         "count": 23,
@@ -1827,12 +1827,12 @@
         "level": 2
       },
       {
-        "count": 57,
+        "count": 140,
         "date": "2026-09-08",
-        "level": 2
+        "level": 4
       }
     ],
-    "total": 5680
+    "total": 5763
   },
   "cta": {
     "cv_url": null,
@@ -1870,7 +1870,7 @@
       "description": "Live proof-of-work dashboard — self-updating GitHub metrics pipeline (Actions cron → JSON-as-datastore → static rebuild)",
       "impact": "This dashboard: scheduled GitHub Actions ingest → JSON-as-datastore → static rebuild. Solves the 14-day traffic-retention problem with idempotent daily snapshots.",
       "name": "vitamin33.github.io",
-      "pushed_at": "2026-09-07",
+      "pushed_at": "2026-09-08",
       "stars": 0,
       "tags": [
         "MLOps",
@@ -1880,10 +1880,10 @@
       "url": "https://github.com/vitamin33/vitamin33.github.io"
     }
   ],
-  "generated_at": "2026-09-08T08:51:23Z",
+  "generated_at": "2026-09-08T19:26:46Z",
   "kpis": {
     "clones_14d": 0,
-    "contributions_365d": 5680,
+    "contributions_365d": 5763,
     "followers": 4,
     "stars_total": 6,
     "tracking_since": "2026-06-17",
