@@ -1752,9 +1752,9 @@
         "level": 1
       },
       {
-        "count": 45,
+        "count": 59,
         "date": "2026-10-07",
-        "level": 1
+        "level": 2
       },
       {
         "count": 35,
@@ -1772,12 +1772,12 @@
         "level": 2
       },
       {
-        "count": 12,
+        "count": 28,
         "date": "2026-10-11",
         "level": 1
       },
       {
-        "count": 15,
+        "count": 17,
         "date": "2026-10-12",
         "level": 1
       },
@@ -1827,12 +1827,12 @@
         "level": 1
       },
       {
-        "count": 4,
+        "count": 13,
         "date": "2026-10-22",
         "level": 1
       }
     ],
-    "total": 7402
+    "total": 7443
   },
   "cta": {
     "cv_url": null,
@@ -1870,7 +1870,7 @@
       "description": "Live proof-of-work dashboard — self-updating GitHub metrics pipeline (Actions cron → JSON-as-datastore → static rebuild)",
       "impact": "This dashboard: scheduled GitHub Actions ingest → JSON-as-datastore → static rebuild. Solves the 14-day traffic-retention problem with idempotent daily snapshots.",
       "name": "vitamin33.github.io",
-      "pushed_at": "2026-10-21",
+      "pushed_at": "2026-10-22",
       "stars": 0,
       "tags": [
         "MLOps",
@@ -1880,10 +1880,10 @@
       "url": "https://github.com/vitamin33/vitamin33.github.io"
     }
   ],
-  "generated_at": "2026-10-22T09:23:29Z",
+  "generated_at": "2026-10-22T20:10:48Z",
   "kpis": {
     "clones_14d": 0,
-    "contributions_365d": 7402,
+    "contributions_365d": 7443,
     "followers": 4,
     "stars_total": 6,
     "tracking_since": "2026-06-17",
@@ -1894,35 +1894,35 @@
   "languages": [
     {
       "name": "Python",
-      "pct": 35.64
-    },
-    {
-      "name": "Dart",
-      "pct": 17.96
+      "pct": 33.82
     },
     {
       "name": "TypeScript",
-      "pct": 15.24
+      "pct": 18.06
+    },
+    {
+      "name": "Dart",
+      "pct": 17.04
     },
     {
       "name": "HTML",
-      "pct": 11.44
+      "pct": 10.86
     },
     {
       "name": "Java",
-      "pct": 4.98
+      "pct": 4.73
     },
     {
       "name": "Kotlin",
-      "pct": 4.79
+      "pct": 4.55
     },
     {
       "name": "JavaScript",
-      "pct": 3.38
+      "pct": 3.42
     },
     {
       "name": "MDX",
-      "pct": 2.66
+      "pct": 2.68
     }
   ],
   "popular_paths": [
